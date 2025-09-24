@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d5034e3-3134-455b-adde-b226753c021e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Atelier1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/act15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/act16.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/act17.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/act18.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/act19.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/act2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/act3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/act4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/act5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/act6.py" afterDir="false" />
-    </list>
+    <list default="true" id="3d5034e3-3134-455b-adde-b226753c021e" name="Changes" comment="first commit, all activities solved" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,12 +73,25 @@
       <workItem from="1758652037736" duration="12131000" />
       <workItem from="1758705631116" duration="71000" />
       <workItem from="1758705811669" duration="409000" />
-      <workItem from="1758706486024" duration="1398000" />
+      <workItem from="1758706486024" duration="1701000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit, all activities solved">
+      <option name="closed" value="true" />
+      <created>1758708144683</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758708144683</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit, all activities solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit, all activities solved" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Atelier1$act3.coverage" NAME="act3 Coverage Results" MODIFIED="1758663958216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
