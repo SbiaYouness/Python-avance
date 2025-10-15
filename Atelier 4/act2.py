@@ -1,17 +1,18 @@
-class Voiture :
-    def __init__(self,code, marque, kilometrage):
-        self.code = code
-        self.marque = marque
-        self.kilometrage = kilometrage
-    def mod_kilo(self,val):
-        self.kilometrage+=val
+class Etudiant :
+    sum_notes=0
+    count_etudiant=0
+    def __init__(self,matricule, nom, prenom, note):
+        self.matricule = matricule
+        self.nom = nom
+        self.prenom = prenom
+        self.note = note
+        Etudiant.sum_notes+=note
+        Etudiant.count_etudiant+=1
     def afficher(self):
-        print("le code de voiture est: ", self.code)
-        print("la marque de voiture est: ", self.marque)
-        print("le kilometrage de voiture est: ", self.kilometrage)
+        print("le matricule est: ", self.matricule, ", le nom est: ", self.nom, self.prenom,", la note est: ", self.note)
 
-v1 = Voiture(23213,"chevy",200304)
-v2 = Voiture(13894,"audi",152000)
-v3 = Voiture(75983,"mercedes",16000)
-v1.mod_kilo(1000)
-v1.afficher()
+ALI = Etudiant(23213,"ATIQ","ALI", 18)
+SAAD = Etudiant(54516,"TESTn","TESTp", 2)
+
+print("la somme des notes de tout les etudiants est:", Etudiant.sum_notes)
+print("la moyenne des notes de tout les etudiants est:", Etudiant.sum_notes/Etudiant.count_etudiant)

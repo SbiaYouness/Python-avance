@@ -1,18 +1,28 @@
-class Etudiant :
-    sum_notes=0
-    count_etudiant=0
-    def __init__(self,matricule, nom, prenom, note):
-        self.matricule = matricule
-        self.nom = nom
-        self.prenom = prenom
-        self.note = note
-        Etudiant.sum_notes+=note
-        Etudiant.count_etudiant+=1
+class Personne():
+    def __init__(self,nom,adresse):
+        self.nom=nom
+        self.adresse=adresse
     def afficher(self):
-        print("le matricule est: ", self.matricule, ", le nom est: ", self.nom, self.prenom,", la note est: ", self.note)
+        print(f"le nom: {self.nom}, l'adresse: {self.adresse}")
 
-ALI = Etudiant(23213,"ATIQ","ALI", 18)
-SAAD = Etudiant(54516,"TESTn","TESTp", 2)
+class Employe(Personne) :
+    def __init__(self,nom,adresse,cnss):
+        self.cnss=cnss
+        Personne.__init__(self,nom,adresse)
 
-print("la somme des notes de tout les etudiants est:", Etudiant.sum_notes)
-print("la moyenne des notes de tout les etudiants est:", Etudiant.sum_notes/Etudiant.count_etudiant)
+class Enseignant(Personne) :
+    def __init__(self,nom,adresse,cnops):
+        self.cnops=cnops
+        Personne.__init__(self,nom,adresse)
+
+class Etudiant(Personne) :
+    def __init__(self,nom,adresse,cne):
+        self.cne=cne
+        Personne.__init__(self,nom,adresse)
+
+etud1=Etudiant("sbia","fes","n145344")
+ense1=Enseignant("asap","rocks","cnops3")
+emp1=Employe("waterson","usa","c3w34343")
+etud1.afficher()
+emp1.afficher()
+ense1.afficher()

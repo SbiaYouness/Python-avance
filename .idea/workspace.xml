@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d5034e3-3134-455b-adde-b226753c021e" name="Changes" comment="gitignore">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Atelier1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atelier 2/revision.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atelier 4/act1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atelier 4/act2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atelier 4/act3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atelier 4/act4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/act15.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/act16.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/act17.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/act18.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/act19.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/act2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/act3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/act4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/act5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/act6.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +58,7 @@
     "Python.ex1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/lampr/OneDrive/Documents/aa/ALL/PYTHON/SBIApy/atelier 1",
+    "last_opened_file_path": "C:/Users/lampr/OneDrive/Documents/aa/ALL/PYTHON/SBIApy/tp5",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -259,6 +251,9 @@
       <workItem from="1758705811669" duration="409000" />
       <workItem from="1758706486024" duration="2789000" />
       <workItem from="1759217872736" duration="90000" />
+      <workItem from="1760438410514" duration="21000" />
+      <workItem from="1760438432346" duration="11000" />
+      <workItem from="1760438501996" duration="52000" />
     </task>
     <task id="LOCAL-00001" summary="first commit, all activities solved">
       <option name="closed" value="true" />
