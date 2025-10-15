@@ -36,8 +36,18 @@ class Employe:
         self.salaire=salaire
 
     def age(self):
-        return (date.today()-self.dateNaissance)/365
+        current_year = date.today().year
+        naissance_year = self.dateNaissance.year
+        return current_year - naissance_year
+
+    def anciennete(self):
+        current_year = date.today().year
+        embauche_year = self.dateEmbauche.year
+        return current_year - embauche_year
 
 
 emp1 = Employe(4342,"nom", "prenom", date(2002,10,19), date(2022,11,29), 342223)
-print(emp1.age())
+
+print(emp1.age(), "Years old")
+print("il a", emp1.anciennete(), "ans d'anciennete")
+
